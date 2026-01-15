@@ -39,7 +39,7 @@ def val_books(books):
         if not title or not authors or not published_date:
             continue
 
-        author = authors[0]  # take first author
+        author = authors[0]  
 
         try:
             year = int(published_date[:4])
